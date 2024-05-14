@@ -24,5 +24,5 @@ print(f'10^2={r}') #출력값=100
 print(f'power2 : call_cnt={c_p2}') #c_p2출력값=2
 print(f'power3 : call_cnt={c_p3}') #c_p3출력값=1
 for idx,c in enumerate(p3_func.__closure__): #enumerate는 인덱스와 값을 함께 반환함. func.__closure__는 함수의 closure에 접근할 수 있는 방법이다.
-    print(f"p3_func's enclosing variable[{idx}]:{c.cell_contents}")
+    print(f"p3_func's enclosing variable[{idx}]:{c.cell_contents}") #p3_func함수의 closure 변수는 call_cnt와 p 이다.
 #출력값 [0]:몇번호출되었는지, [1]:p값
