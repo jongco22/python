@@ -1,4 +1,4 @@
-g_x = 'global' #global scopre
+g_x = 'global' #global scope
 
 def g_func():
     # Local Scope, g_func의 function namespace로 g_func 의 관점에선 local이라고 불림.
